@@ -1,11 +1,14 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 97.3vh;
+    height: 97vh;
     background-image: linear-gradient(to bottom right,#4D1959,#9C4FAD);
     background-repeat: no-repeat;
-    font-family:'Courier New', Courier, monospace;
+  
 }
 .container{
     border: 5px dashed white;
@@ -32,23 +35,28 @@ button:hover{
 button{
     height: 35px;
     width: 100px;
-    background-color: white;
+    background-color:#9C4FAD;
     border: none;
-    color: black;
+    color: white;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 #task ul{
     position: relative;
-    background-color:#4D1959;
-    color: white;
     font-size: 1.5rem;
     text-align: left;
     padding: 10px;
+    margin-right: 50px;
+    border: 2px solid white;
+    margin-top: 10px;
+    color: white;
 }
 #task ul i{
-    position: absolute;
-    right: 8px;
     cursor: pointer;
+    float: right;
+    margin-right: 5px;
 }
+
